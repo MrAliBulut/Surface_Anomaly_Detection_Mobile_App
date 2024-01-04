@@ -3,6 +3,7 @@ import 'package:cats/Application%20Screen/history.dart';
 import 'package:flutter/material.dart';
 import 'add_record.dart';
 
+//State Patern :Kullanıcının uygulama içindeki farklı ekranlar arasında geçiş yapmasını yönetmek için kullanılabilir. -> Flutter da bunlar widgetlar ile gerçekleştirilir. StatefulWidget.
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
 
